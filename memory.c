@@ -20,21 +20,21 @@ struct node *curr = NULL;
 
 struct node *merge()
 {
-    struct node *tempo;
-    tempo = head;
-    while (tempo->next != NULL)
+    struct node *holder;
+    holder = head;
+    while (holder->next != NULL)
     {
-        if (tempo->pName == 'X' && tempo->next->pName == 'X')
+        if (holder->pName == 'X' && holder->next->pName == 'X')
         {
             struct node *temp = (struct node *)malloc(sizeof(struct node));
-            temp = tempo->next;
-            tempo->size = tempo->size + tempo->next->size;
-            tempo->next = tempo->next->next;
+            temp = holder->next;
+            holder->size = holder->size + holder->next->size;
+            holder->next = holder->next->next;
             free(temp);
         }
         else
         {
-            tempo = tempo->next;
+            holder = holder->next;
         }
     }
 }
