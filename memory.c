@@ -1,3 +1,5 @@
+//this is a simple c program that demonstrates the memory management system in operating systems implemented in a linked list.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
