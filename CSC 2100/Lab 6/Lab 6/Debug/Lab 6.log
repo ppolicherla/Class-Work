@@ -1,0 +1,4 @@
+﻿  Lab 6.cpp
+c:\users\pavan\documents\visual studio 2013\projects\csc2100\class lecture\lab 6\lab 6\lab 6.cpp(14): warning C4101: 'newBooks2' : unreferenced local variable
+c:\users\pavan\documents\visual studio 2013\projects\csc2100\class lecture\lab 6\lab 6\lab 6.cpp(13): warning C4101: 'newSpent2' : unreferenced local variable
+  Lab 6.vcxproj -> C:\Users\pavan\Documents\Visual Studio 2013\Projects\csc2100\class lecture\Lab 6\Debug\Lab 6.exe

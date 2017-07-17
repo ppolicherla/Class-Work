@@ -1,0 +1,10 @@
+"Happy_Gilmore"  10
+"Pixels"         15
+"Funny_People"   20
+"Billy_Madison"  35
+"Click"           5
+"Grown-ups"       2
+"Grown-ups2"      1
+"50_first_dates"  4
+"Big_Daddy"      40
+"Water_Boy"      25

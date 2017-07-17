@@ -1,0 +1,9 @@
+﻿  myArrayImp.cpp
+  Lab 16.cpp
+c:\users\pavan\documents\visual studio 2013\projects\csc2100\lab 16\lab 16\lab 16.cpp(56): warning C4930: 'myArray<int> bo(void)': prototyped function not called (was a variable definition intended?)
+c:\users\pavan\documents\visual studio 2013\projects\csc2100\lab 16\lab 16\lab 16.cpp(57): warning C4930: 'myArray<std::string> string(void)': prototyped function not called (was a variable definition intended?)
+  Generating Code...
+Lab 16.obj : error LNK2019: unresolved external symbol "public: __thiscall myArray<int>::myArray<int>(int)" (??0?$myArray@H@@QAE@H@Z) referenced in function _main
+Lab 16.obj : error LNK2019: unresolved external symbol "public: __thiscall myArray<int>::myArray<int>(class myArray<int> const &)" (??0?$myArray@H@@QAE@ABV0@@Z) referenced in function _main
+Lab 16.obj : error LNK2019: unresolved external symbol "public: __thiscall myArray<int>::~myArray<int>(void)" (??1?$myArray@H@@QAE@XZ) referenced in function _main
+C:\Users\pavan\Documents\Visual Studio 2013\Projects\csc2100\Lab 16\Debug\Lab 16.exe : fatal error LNK1120: 3 unresolved externals

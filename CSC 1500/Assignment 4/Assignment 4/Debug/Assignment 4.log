@@ -1,0 +1,4 @@
+﻿  assignment 4.cpp
+c:\users\pavan\documents\visual studio 2013\projects\csc1501\assignment 4\assignment 4\assignment 4.cpp(61): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\users\pavan\documents\visual studio 2013\projects\csc1501\assignment 4\assignment 4\assignment 4.cpp(102): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+  Assignment 4.vcxproj -> C:\Users\pavan\Documents\Visual Studio 2013\Projects\csc1501\Assignment 4\Debug\Assignment 4.exe

@@ -1,0 +1,42 @@
+﻿  test10.cpp
+c:\users\pavan\documents\visual studio 2015\projects\csc2200\lab10\lab10\bstree.cpp(278): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+  c:\users\pavan\documents\visual studio 2015\projects\csc2200\lab10\lab10\bstree.cpp(230): note: while compiling class template member function 'bool BSTree<DataType,KeyType>::removeHelper(BSTree<DataType,KeyType>::BSTreeNode *&,const KeyType &)'
+          with
+          [
+              DataType=TestData,
+              KeyType=std::string
+          ]
+  c:\users\pavan\documents\visual studio 2015\projects\csc2200\lab10\lab10\bstree.cpp(211): note: see reference to function template instantiation 'bool BSTree<DataType,KeyType>::removeHelper(BSTree<DataType,KeyType>::BSTreeNode *&,const KeyType &)' being compiled
+          with
+          [
+              DataType=TestData,
+              KeyType=std::string
+          ]
+  c:\users\pavan\documents\visual studio 2015\projects\csc2200\lab10\lab10\bstree.cpp(41): note: while compiling class template member function 'BSTree<DataType,KeyType>::BSTree(void)'
+          with
+          [
+              DataType=TestData,
+              KeyType=std::string
+          ]
+  c:\users\pavan\documents\visual studio 2015\projects\csc2200\lab10\lab10\hashtable.cpp(10): note: see reference to function template instantiation 'BSTree<DataType,KeyType>::BSTree(void)' being compiled
+          with
+          [
+              DataType=TestData,
+              KeyType=std::string
+          ]
+  c:\users\pavan\documents\visual studio 2015\projects\csc2200\lab10\lab10\hashtable.cpp(10): note: see reference to class template instantiation 'BSTree<DataType,KeyType>' being compiled
+          with
+          [
+              DataType=TestData,
+              KeyType=std::string
+          ]
+  c:\users\pavan\documents\visual studio 2015\projects\csc2200\lab10\lab10\hashtable.cpp(8): note: while compiling class template member function 'HashTable<TestData,std::string>::HashTable(int)'
+  c:\users\pavan\documents\visual studio 2015\projects\csc2200\lab10\lab10\test10.cpp(62): note: see reference to function template instantiation 'HashTable<TestData,std::string>::HashTable(int)' being compiled
+  c:\users\pavan\documents\visual studio 2015\projects\csc2200\lab10\lab10\test10.cpp(62): note: see reference to class template instantiation 'HashTable<TestData,std::string>' being compiled
+  show9.cpp
+  show10.cpp
+  HashTable.cpp
+  BSTree.cpp
+  Generating Code...
+BSTree.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  Lab10.vcxproj -> C:\Users\pavan\Documents\Visual Studio 2015\Projects\csc2200\Lab10\Debug\Lab10.exe

@@ -1,0 +1,5 @@
+﻿  Source.cpp
+c:\users\pavan\documents\visual studio 2013\projects\csc1501\assignment 2\assignment 2\source.cpp(10): warning C4101: 'a' : unreferenced local variable
+c:\users\pavan\documents\visual studio 2013\projects\csc1501\assignment 2\assignment 2\source.cpp(10): warning C4101: 'b' : unreferenced local variable
+c:\users\pavan\documents\visual studio 2013\projects\csc1501\assignment 2\assignment 2\source.cpp(10): warning C4101: 'c' : unreferenced local variable
+  assignment 2.vcxproj -> C:\Users\pavan\Documents\Visual Studio 2013\Projects\csc1501\assignment 2\Debug\assignment 2.exe

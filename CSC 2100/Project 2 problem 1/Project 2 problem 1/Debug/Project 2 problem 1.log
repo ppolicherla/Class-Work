@@ -1,0 +1,10 @@
+﻿  MatrixImp.cpp
+c:\users\pavan\documents\visual studio 2015\projects\csc2100\project 2 problem 1\project 2 problem 1\matriximp.cpp(127): error C2084: function 'Matrix::Matrix(void)' already has a body
+  c:\users\pavan\documents\visual studio 2015\projects\csc2100\project 2 problem 1\project 2 problem 1\matriximp.cpp(2): note: see previous definition of '{ctor}'
+c:\users\pavan\documents\visual studio 2015\projects\csc2100\project 2 problem 1\project 2 problem 1\matriximp.cpp(130): error C2065: 'm': undeclared identifier
+c:\users\pavan\documents\visual studio 2015\projects\csc2100\project 2 problem 1\project 2 problem 1\matriximp.cpp(132): error C2065: 'm': undeclared identifier
+c:\users\pavan\documents\visual studio 2015\projects\csc2100\project 2 problem 1\project 2 problem 1\matriximp.cpp(132): error C2541: 'delete': cannot delete objects that are not pointers
+  Generating Code...
+  Compiling...
+  problem 1.cpp
+  Generating Code...

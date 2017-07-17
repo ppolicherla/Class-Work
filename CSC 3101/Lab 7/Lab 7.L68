@@ -1,0 +1,50 @@
+00001000 Starting Address
+Assembler used: EASy68K Editor/Assembler v5.15.04
+Created On: 7/13/2016 5:00:06 PM
+
+00000000                             1  *-----------------------------------------------------------
+00000000                             2  * Title      :Lab 7
+00000000                             3  * Written by :Pavan Policherla
+00000000                             4  * Date       :7/13/2016
+00000000                             5  * Description:Lab 7m 
+00000000                             6  *-----------------------------------------------------------
+00001000                             7  START:  ORG    $1000            ; first instruction of program
+00001000                             8  
+00001000                             9  * Put program code here
+00001000  303C 000E                 10          MOVE.W #14,D0
+00001004  43F9 00001046             11          LEA Prod, A1
+0000100A  4E4F                      12          TRAP #15
+0000100C                            13          
+0000100C  303C 0003                 14          MOVE.W #3,D0
+00001010  3239 00001040             15          MOVE.W X,D1
+00001016  D279 00001042             16          ADD.W Y,D1
+0000101C  C2C1                      17          MULU.W D1,D1
+0000101E  3439 00001042             18          MOVE.W Y,D2
+00001024  D479 00001044             19          ADD.W Z,D2
+0000102A  C4C2                      20          MULU.W D2,D2
+0000102C  C2C2                      21          MULU.W D2,D1
+0000102E  3639 00001044             22          MOVE.W Z,D3
+00001034  D679 00001040             23          ADD.W X,D3
+0000103A  C6C3                      24          MULU.W D3,D3
+0000103C  C2C3                      25          MULU.W D3,D1
+0000103E  4E4F                      26          TRAP #15
+00001040                            27  
+00001040                            28  * Put variables and constants here
+00001040= 0004                      29  X        DC.W 4
+00001042= 0005                      30  Y        DC.W 5
+00001044= 0006                      31  Z        DC.W 6      
+00001046= 2828 582B 5929 5...       32  Prod     DC.W '((X+Y)^2)*((Y+Z)^2) ((Z+X)^2) is: ', 0
+0000106A                            33           END    START        ; last line of source
+
+No errors detected
+No warnings generated
+
+
+SYMBOL TABLE INFORMATION
+Symbol-name         Value
+-------------------------
+PROD                1046
+START               1000
+X                   1040
+Y                   1042
+Z                   1044

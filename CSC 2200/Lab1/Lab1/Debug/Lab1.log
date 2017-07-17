@@ -1,0 +1,14 @@
+﻿  Text.cpp
+c:\users\pavan\documents\visual studio 2015\projects\csc2200\lab1\lab1\text.cpp(11): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\pavan\documents\visual studio 2015\projects\csc2200\lab1\lab1\text.cpp(20): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\pavan\documents\visual studio 2015\projects\csc2200\lab1\lab1\text.cpp(34): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+  Generating Code...
+  Compiling...
+  textio.cpp
+  test1.cpp
+  Generating Code...
+test1.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  Lab1.vcxproj -> C:\Users\pavan\Documents\Visual Studio 2015\Projects\csc2200\Lab1\Debug\Lab1.exe

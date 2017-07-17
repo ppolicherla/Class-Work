@@ -1,0 +1,83 @@
+00001000 Starting Address
+Assembler used: EASy68K Editor/Assembler v5.15.04
+Created On: 8/2/2016 5:08:57 PM
+
+00000000                             1  *-----------------------------------------------------------
+00000000                             2  * Title      :
+00000000                             3  * Written by :
+00000000                             4  * Date       :
+00000000                             5  * Description:
+00000000                             6  *-----------------------------------------------------------
+00000000                             7  
+00001000                             8  START:  ORG  $1000                 ; first instruction of program
+00001000                             9  
+00001000                            10  * Put program code here
+00001000  307C 106C                 11               MOVEA #ARRAY,A0
+00001004  43F9 00001069             12               LEA SPACE,A1
+0000100A  103C 0001                 13               MOVE.B #1,D0         D0 is a counter for ARRAY1
+0000100E  143C 0001                 14               MOVE.B #1,D2         D2 is a counter for ARRAY2
+00001012                            15  
+00001012                            16  NEXT                   
+00001012  1810                      17               MOVE.B (A0),D4
+00001014  1628 0001                 18               MOVE.B 1(A0),D3
+00001018  B07C 000A                 19               CMP #10,D0
+0000101C  6700 0018                 20               BEQ INCREMENT
+00001020                            21  RUN
+00001020  B644                      22               CMP D4,D3
+00001022  6C00 0008                 23               BGE GREAT
+00001026                            24  LESS
+00001026  5248                      25               ADDA #1,A0
+00001028  5240                      26               ADD #1,D0
+0000102A  60E6                      27               BRA NEXT
+0000102C                            28  GREAT
+0000102C  1A03                      29               MOVE.B D3,D5
+0000102E  5248                      30               ADDA #1,A0
+00001030  1C00                      31               MOVE.B D0,D6
+00001032  5240                      32               ADD #1,D0
+00001034  60DC                      33               BRA NEXT
+00001036                            34  INCREMENT
+00001036  1205                      35               MOVE.B D5,D1
+00001038  5242                      36               ADD #1,D2
+0000103A  103C 0003                 37               MOVE.B #3,D0
+0000103E  4E4F                      38               TRAP #15
+00001040  303C 000E                 39               MOVE #14,D0
+00001044  4E4F                      40               TRAP #15
+00001046  103C 0001                 41               MOVE.B #1,D0
+0000104A  13C6 00001068             42               MOVE.B D6,X
+00001050  21BC 00000000 6000        43               MOVE.L #0,(A0,D6)
+00001058  307C 106C                 44               MOVEA #ARRAY,A0
+0000105C  B47C 000B                 45               CMP #11,D2
+00001060  66B0                      46               BNE NEXT
+00001062                            47  EXIT
+00001062  103C 0009                 48               MOVE.B #9,D0
+00001066  4E4F                      49               TRAP #15
+00001068                            50               
+00001068                            51     
+00001068                            52  
+00001068                            53  * Put variables and constants here
+00001068                            54  
+00001068= 00                        55  X      DC.B 0
+00001069                            56  
+00001069= 2C 20 00                  57  SPACE  DC.B ', ',0
+0000106C                            58  
+0000106C= 01 02 05 04 08 05 ...     59  ARRAY  DC.B 1,2,5,4,8,5,4,2,11,6
+00001076                            60  
+00001076                            61      END    START        ; last line of source
+
+No errors detected
+No warnings generated
+
+
+SYMBOL TABLE INFORMATION
+Symbol-name         Value
+-------------------------
+ARRAY               106C
+EXIT                1062
+GREAT               102C
+INCREMENT           1036
+LESS                1026
+NEXT                1012
+RUN                 1020
+SPACE               1069
+START               1000
+X                   1068

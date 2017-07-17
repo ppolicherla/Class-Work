@@ -1,0 +1,20 @@
+﻿  test9.cpp
+c:\users\pavan\documents\visual studio 2015\projects\csc2200\lab9\lab9\lab9\bstree.cpp(273): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+  c:\users\pavan\documents\visual studio 2015\projects\csc2200\lab9\lab9\lab9\bstree.cpp(231): note: while compiling class template member function 'bool BSTree<TestData,int>::removeHelper(BSTree<TestData,int>::BSTreeNode *&,const KeyType &)'
+          with
+          [
+              KeyType=int
+          ]
+  c:\users\pavan\documents\visual studio 2015\projects\csc2200\lab9\lab9\lab9\bstree.cpp(212): note: see reference to function template instantiation 'bool BSTree<TestData,int>::removeHelper(BSTree<TestData,int>::BSTreeNode *&,const KeyType &)' being compiled
+          with
+          [
+              KeyType=int
+          ]
+  c:\users\pavan\documents\visual studio 2015\projects\csc2200\lab9\lab9\lab9\bstree.cpp(41): note: while compiling class template member function 'BSTree<TestData,int>::BSTree(void)'
+  c:\users\pavan\documents\visual studio 2015\projects\csc2200\lab9\lab9\lab9\test9.cpp(37): note: see reference to function template instantiation 'BSTree<TestData,int>::BSTree(void)' being compiled
+  c:\users\pavan\documents\visual studio 2015\projects\csc2200\lab9\lab9\lab9\test9.cpp(37): note: see reference to class template instantiation 'BSTree<TestData,int>' being compiled
+  show9.cpp
+  BSTree.cpp
+  Generating Code...
+BSTree.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  Lab9.vcxproj -> C:\Users\pavan\Documents\Visual Studio 2015\Projects\csc2200\Lab9\Lab9\Debug\Lab9.exe

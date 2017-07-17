@@ -1,0 +1,8 @@
+﻿  LoadedDiceImp.cpp
+c:\users\pavan\documents\visual studio 2013\projects\csc2100\project1\extracredit 1\extracredit 1\loadeddiceimp.cpp(7): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\pavan\documents\visual studio 2013\projects\csc2100\project1\extracredit 1\extracredit 1\loadeddiceimp.cpp(13): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+  DiceImp.cpp
+c:\users\pavan\documents\visual studio 2013\projects\csc2100\project1\extracredit 1\extracredit 1\diceimp.cpp(7): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\pavan\documents\visual studio 2013\projects\csc2100\project1\extracredit 1\extracredit 1\diceimp.cpp(13): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  extracredit 1.vcxproj -> C:\Users\pavan\Documents\Visual Studio 2013\Projects\csc2100\project1\extracredit 1\Debug\extracredit 1.exe
