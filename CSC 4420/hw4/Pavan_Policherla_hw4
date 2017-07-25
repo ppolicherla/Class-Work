@@ -1,0 +1,32 @@
+4.10) the absolute path name is /usr/ast/x.
+
+4.13)
+a)8KB=8000B 80MB=83886080B 8000B/(83886080B/sec)*1000msec/sec=0.0976msec+9msec=9.0976msec. total time to read and write 8kb is 18.1952msec.
+b)8GB/8KB=1000000 8KB segments in 8GB. 18.1952msec*1000000=18195200msec which is about 5 and half hours.
+
+4.14)
+yes but not every time you make a change only every so often.
+
+4.25)
+a)1111 1111 1111 0000
+b)1000 0001 1111 0000
+c)1111 1111 1111 1100
+d)1111 1110 0000 1100
+
+5.14)
+a) device drivers
+b) device drivers
+c) device-independent operating system software
+d) user level I/O software
+
+5.17)
+7200RPM = 120RPS
+1000/120msec = 1 rotation
+sector time is 1/200
+5/120 = 1/24 msec
+in 1msec 24 sectors pass under the head
+cylinder skew = 24.
+
+5.19)
+512B*500*120RPS=30720000 bytes/sec
+

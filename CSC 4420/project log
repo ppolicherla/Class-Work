@@ -1,0 +1,24 @@
+Log 1:
+
+At the time of the first log what I have completed is that I have successfully downloaded and installed the s3fs-fuse software and set up the amazon s3 web service. In addition I have linked my program to the server so that I am able to add and delete files to and from the server, either in the web console or on my own computer. 
+
+Next I will start looking through the source code to better understand where and how the the program uploads and retrieves the files, so I will learn where I have to start making changes to add the encryption that I need.
+
+
+Log 2:
+
+For this week I spent my time looking at the source code of the s3fs-fuse program in addition to learning more about the fuse program and open ssl from the links provided.
+
+I also read up on RC4 and the different kinds of implementations and the vulnerabilities. It seems that the vulnerabilities come from the algorithms generation of. To counteract this different implementations like RC4+ are available. It also was cool to see that RC4 was used for things like wifi network passwords, torrents, microsoft security for the XP operating system, and least of all skype.
+
+Log 3:
+
+For this week I started working on implementing the RC4 files to encrypt and decript binary and text files. I ran into errors initially and it stemmed from not including certain files. I am still working out the bugs and will be working on it the rest of this week in hopes that before next week i can start integrating it into the s3fs program.
+
+
+Log4:
+
+At this time I have made some progress in working with RC4, after placing all the necessary files into a separate folder I was able to create a main file and successfully encrypt and decrypt a string. This week I think I will make more progress and hope to be able to encrypt the other file types by next monday by implementing a binary encryption. To make things a bit more simpler I made the main file a c++ file and ran it from there after resolving several errors that arose from the initial conversion. 
+
+Log5:
+I am still working on calling the encrypt and decrypt in the right place in the fdcache file. Here i have also learned that given project requirements i will need to use the MD5 hash to get the program to work with openssl decryption as well and will have to integrate that as well. I plan to have this all handled by the end of the week.

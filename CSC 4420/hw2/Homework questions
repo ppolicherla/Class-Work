@@ -1,0 +1,15 @@
+2.6) 4000-512= 3488  3488/256= 14  p^14=0.01  p= 14throot(0.01)
+
+p=0.72
+
+2.7) 10/.5=20 so each process will take 20 minutes to complete so if they run sequentially the last process will take 40 minutes to complete. 
+
+1-.5^2 =0.75   0.75/2=0.375  10/0.375=26.67 
+
+if run in parallel the last process would take 26.67 minutes to complete.
+
+Question 3) based on my results that the ppid is the same before and after the parent process terminates, the parent process of the child after the original parent process terminates should still be the same process. 
+
+Question 5)the program created 6537 processes and my computer has 16gb of ram.
+
+Question6) the CPU on the machine that i ran the experiment on is the intel core i7-6700hq.

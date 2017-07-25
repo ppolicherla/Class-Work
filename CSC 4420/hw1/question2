@@ -1,0 +1,90 @@
+echo "enter command to display information"
+histvar=""
+while :;
+do
+read input
+if [ $input == "url" ]
+then
+	echo "http://www.cs.wayne.edu/~lihao/Courses/CSC4420/"
+histvar="$histvar $input"
+
+elif [ $input == "hour" ]
+then
+	echo "Monday and Wednesday 10:00 am to 11:15am"
+histvar="$histvar $input"
+
+elif [ $input == "room" ]
+then
+	echo "State Hall room 73"
+histvar="$histvar $input"
+
+elif [ $input == "desp" ]
+then
+	echo "Operating system is an essentail software layer to use various various computing devices. This course covers the basic components and design principles of modern operating systems, including process and thread, CPU, scheduling, memory management, file system and others. This course also provides hand-on programming experiences of using Linux system calls, and design and implementation of a cloud-based file system."
+histvar="$histvar $input"
+
+elif [ $input == "text" ]
+then
+	echo "Modern Operating Systems, 4/E"
+histvar="$histvar $input"
+
+elif [ $input == "ref" ]
+then
+	printf "Operating System Concepts \nUnderstanding the Linux Kernal \nAdvanced UNIX Programming \nAdvanced Programming in the UNIX Environment 1st Edition\n"
+histvar="$histvar $input"
+
+elif [ $input == "prof" ]
+then
+	echo "Lihao Xu"
+histvar="$histvar $input"
+
+elif [ $input == "pol" ]
+then 
+	echo "Woodward 5057, Room 140.1"
+histvar="$histvar $input"
+
+elif [ $input == "poh" ]
+then
+	echo "Monday and Wednesday 1:15pm to 2:15pm"
+histvar="$histvar $input"
+
+elif [ $input == "pma" ]
+then
+	echo "lihao@wayne.edu"
+histvar="$histvar $input"
+
+elif [ $input == "ta" ]
+then
+	printf "David Warnke \nRui Chen\n"
+histvar="$histvar $input"
+
+elif [ $input == "tol" ]
+then
+	printf "David: 5057 Woodward, Room 3211. \nRui: 5057 Woodward, Room 2221\n"
+histvar="$histvar $input"
+
+elif [ $input == "toh" ]
+then
+	printf "David: Monday and Wednesday 11:30pm to 12:30pm. \nRui: Tuesday and Wednesday 1:00pm to 2:00pm\n"
+histvar="$histvar $input"
+
+elif [ $input == "tma" ]
+then
+	printf "David: david.warnke@wayne.edu. \nRui: fb4138@wayne.edu\n"
+histvar="$histvar $input"
+
+elif [ $input == "history" ]
+then
+	echo $histvar
+histvar="$histvar $input"
+
+elif [ $input == "help" ]
+then
+	printf "url: course website \nhour: class time \nroom: room location \ndesp: course despcription \ntext: textbook \nref: reference books \nprof: professor's name \npol: professor office location \npoh: professor's office hours \npma: professor's email address \nta: TA's names \ntol: TA's office location \ntoh: TA's office hours \ntma: TA's email address \nhistory: list of commands inputed \nhelp: list commands \nexit or quit: exit program \n"
+histvar="$histvar $input"
+
+elif [[ $input == "exit" || $input == "quit" ]]
+then
+	break
+fi
+done

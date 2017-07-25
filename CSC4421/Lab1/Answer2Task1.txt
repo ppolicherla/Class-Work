@@ -1,0 +1,13 @@
+﻿1) The who command displays the info on who is logged on to the computer
+2) Whoami displays the userid 
+3) uname will display the user information
+4) ls will list the contents of the current directory
+5) mkdir will create a new directory within the current directory
+6) cd will change the current directory to the directory specified
+7) cat will concatenate files and print them out 
+8) cp will create a copy of the files in the current directory
+9) mv will rename a file to a new specified file name
+10) rm will delete a specified file or directory
+11) cd ../ will change the directory to the directory that contains the current directory.
+12) Rmdir will delete the specified directory.
+13) Ls -l will display the number of items in the current directory.

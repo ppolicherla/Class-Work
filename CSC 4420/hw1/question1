@@ -1,0 +1,11 @@
+find -name "*.PDF"
+echo "searching...."
+VAR=(*.PDF)
+if [ ${#VAR[@]} -eq 1 ]
+then
+	echo "nothing found..."
+else
+	echo "renaming..."
+	find -name "*.PDF" -exec rename 's/\.PDF$/\.pdf/' {} \;
+echo "finished."
+fi

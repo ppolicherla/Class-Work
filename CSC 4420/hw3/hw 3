@@ -1,0 +1,42 @@
+2.29) the solution can be extended to this system by using the mutex to monitor that either one producer or consumer can access the shared buffer at a time. This will ensure that no issues with multiple processes trying to access the buffer at the same time will occur.
+
+2.30) 
+P1
+while (turn != 1){} /*do nothing and wait
+*/critical section/*...*/
+turn =0;      
+
+this does not meet all the conditions as P1 will block P0 from doing anything. P1 is doing nothing and waiting to enter its critical section. This will block P0 from executing and thus violates condition 3.
+
+2.31)
+For the OS to do a semaphore while interrupts are disabled, first interrupts would have to be disabled. Then it will read the semaphore value. If in the wait state and the semaphore value is 0, it will put the calling process on a list of blocked processes that are related to the semaphore. When the OS is posting it will check the list and see if there are blocked processes on the semaphore. If there are any one will be chosen to be runnable until the list is empty. Once all the processes are run interrupts can be re-enabled.
+
+3.7)
+
+a) 8212  b) 4100 c) 24684
+
+3.13)
+
+page fault: every k instruction and takes n nsec
+instruction: 1 nsec
+without a page fault = k-1 instruction((k-1)nsec)
+with a page fault= 1+n nsec
+average
+
+(k + n - 1)/ k
+
+3.16)
+
+.99: probability to access a page from TLB
+1nsec: time to access 
+.01: probability that page is not in TLB
+100nsec: time needed to access page table
+.0001: probability that page fault happens
+.0099: probability that page fault does not happen
+6000000nsec: time needed to replace page after page fault
+
+(.99*1)+(.0001*6000000)+(.0099*100)=601.98nsec
+
+3.29)
+
+the first page with no bit set will be taken out of the memory. Afterwards the search will resume. The first page with the R bit 0 is D, it will be removed.

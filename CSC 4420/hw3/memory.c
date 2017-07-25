@@ -1,23 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Marketplace
-Gist
- @ppolicherla
- Sign out
- Watch 0
-  Star 0
-  Fork 0 ppolicherla/Class-Work
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Settings Insights 
-Branch: master Find file Copy pathClass-Work/memory management/memory.c
-0d550ab  on Feb 25
-@ppolicherla ppolicherla Create memory.c
-1 contributor
-RawBlameHistory     
-155 lines (135 sloc)  2.88 KB
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -171,5 +151,3 @@ int main()
 
     return 0;
 }
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status Help

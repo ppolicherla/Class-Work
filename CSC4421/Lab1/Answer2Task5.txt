@@ -1,0 +1,5 @@
+﻿1) The default sort order for ls is alphabetical
+2) ls -a will list everything in the directory and will not ignore files that start with ‘.’.
+3) yes “q” is a legal operation for ls
+4) “R” is a legal operation for ls
+5) the ls file can usually be found in the bin directory.
